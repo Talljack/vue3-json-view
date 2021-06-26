@@ -143,7 +143,7 @@
           <!-- 递归每一个对象渲染 -->
           <template v-for="(item, index) in items" :key="item.key + index">
             <json-view
-              v-if="item.isJSON"
+              v-if="item.isJson"
               :closed="isClose()"
               :data="item.value"
               :json-key="item.key"

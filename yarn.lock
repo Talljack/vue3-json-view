@@ -3428,6 +3428,14 @@ vue3-json-view@^1.0.0:
     vue "^3.0.5"
     vue3-json-view "^0.1.1"
 
+vue3-json-view@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/vue3-json-view/-/vue3-json-view-1.1.0.tgz#c45bc095bc3e72e8d9eaa66cfe2e21edaef1b130"
+  integrity sha512-IF1yVXI3EjEdYIjMCtAMowCZ7fCVc3WuP5TCxZGsqxb1pIgoez4VEAtW+JW4bffGPvEjdebpmsC0pQGcw1ESow==
+  dependencies:
+    vue "^3.0.5"
+    vue3-json-view "^1.0.0"
+
 vue@^3.0.5:
   version "3.1.2"
   resolved "https://registry.npmjs.org/vue/-/vue-3.1.2.tgz#647f8e3949a3d600771dca25d50225dc3e594c64"

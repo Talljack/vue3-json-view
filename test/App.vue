@@ -1,6 +1,6 @@
 <template>
   <div>
-    <JsonView :data="data" jsonKey="2" />
+    <JsonView :data="data" />
   </div>
 </template>
 
@@ -17,6 +17,11 @@ export default defineComponent({
       name: "yugang.cao",
       age: 23,
       home: "my home",
+      someKey: {
+        a: 123,
+        b: "sdfdfd",
+      },
+      arr: [1, 2, 3],
     });
     return {
       data,

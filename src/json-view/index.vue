@@ -289,7 +289,7 @@ export default defineComponent({
       const data = props.data;
       //为array
       if (isArray.value) {
-        return data.map((item: object) => {
+        return (data as object[]).map((item: object) => {
           const isJson = isObjectOrArray(item);
           return {
             value: item,
@@ -299,7 +299,7 @@ export default defineComponent({
         });
       }
       // 如果为object
-      return Object.keys(data as object[]).map((key) => {
+      return Object.keys(data as object).map((key) => {
         const item = data[key];
         const isJson = isObjectOrArray(item);
         return {

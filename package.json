@@ -1,13 +1,13 @@
 {
   "name": "vue3-json-view",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "vue3 json view， better to use",
   "main": "lib/index.js",
   "module": "es/index.js",
   "scripts": {
     "dev": "vite",
     "web": "vite build --mode web",
-    "build": "npm run clean && tsc -b --force tsconfig.esm.json && tsc -b --force tsconfig.cjs.json && cp -r src/json-view ./lib/json-view && cp -r src/json-view ./es/json-view && rimraf {es,lib}/*.tsbuildinfo",
+    "build": "npm run clean && npm run gen-version && tsc -b --force tsconfig.esm.json && tsc -b --force tsconfig.cjs.json && cp -r src/json-view ./lib/json-view && cp -r src/json-view ./es/json-view && rimraf {es,lib}/*.tsbuildinfo",
     "clean": "rimraf site lib es",
     "release": "npm run build && npm publish --access=public",
     "lint": "eslint --quiet --no-error-on-unmatched-pattern --fix \"src/**/*.{ts,js,vue,tsx}\"",
@@ -40,7 +40,7 @@
   "dependencies": {
     "vue": "^3.0.5",
     "less": "^4.1.1",
-    "vue3-json-view": "^1.1.0"
+    "vue3-json-view": "^1.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.14.5",

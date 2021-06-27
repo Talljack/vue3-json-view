@@ -18,6 +18,10 @@ setup () {
     data
   }
 }
+or
+
+import { JsonView } from 'vue3-json-view'
+app.use(JsonView)
 ```
 
 ## 📦 Install

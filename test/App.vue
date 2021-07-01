@@ -6,7 +6,8 @@
 
 <script lang="ts">
 import { defineComponent, reactive } from "vue";
-import JsonView from "vue3-json-view";
+import JsonView from "../src/index";
+
 export default defineComponent({
   name: "App",
   components: {

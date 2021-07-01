@@ -6,7 +6,7 @@ Typescript support a vue3-json-view lib which can better show
 
 ```javascript
 import JsonView from "vue3-json-view"
-
+import 'vue3-json-view/lib/style.css'
 in vue3
 setup () {
   const data = reactive({
@@ -21,6 +21,7 @@ setup () {
 or
 
 import { JsonView } from 'vue3-json-view'
+import 'vue3-json-view/lib/style.css'
 app.use(JsonView)
 ```
 

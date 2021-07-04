@@ -3405,41 +3405,6 @@ vue-tsc@^0.0.24:
   dependencies:
     unzipper "0.10.11"
 
-vue3-json-view@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/vue3-json-view/-/vue3-json-view-1.2.2.tgz#1c984413b4bab8c9e38df7a42b66ac796e19d5e8"
-  integrity sha512-mu8Wxfor0PW+NFnWG0MCY7Who+SdySG2G0t61OL0bUr0J2MXl+hYoKsBacZBg3TcYI/YB0SUIynYsLAUVx0vNg==
-  dependencies:
-    less "^4.1.1"
-    vue "^3.0.5"
-
-vue3-json-view@^1.2.3:
-  version "1.2.3"
-  resolved "https://registry.npmjs.org/vue3-json-view/-/vue3-json-view-1.2.3.tgz#241c3c45312e3fc0e9f8b12297e4b0328566f731"
-  integrity sha512-VwN9m5nlxiFLjZAJITZAGqvW+1okpTbLmSAjEY4eA+KIhyjouEQq9f+FKZLRFzPwLsaMBT7pcMa5eNd4clRvsQ==
-  dependencies:
-    less "^4.1.1"
-    vue "^3.0.5"
-    vue3-json-view "^1.2.2"
-
-vue3-json-view@^1.2.4:
-  version "1.2.4"
-  resolved "https://registry.npmjs.org/vue3-json-view/-/vue3-json-view-1.2.4.tgz#5987c735408510839a65a53490942ceb3f5c1d18"
-  integrity sha512-REK3bEWGo7cb9l3otENpjLADNEI3XXRDkSWAh0EDavkVsnD6efZ3JX41PUKeEBQq+ZnLYoS7h2HF7wE/WcXVIw==
-  dependencies:
-    less "^4.1.1"
-    vue "^3.0.5"
-    vue3-json-view "^1.2.3"
-
-vue3-json-view@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.npmjs.org/vue3-json-view/-/vue3-json-view-1.2.5.tgz#982ecc295b6b63bcddd14a0956a153a53aafda25"
-  integrity sha512-8omrU2+F26TEGRNXD9gj9lNAmEUSBDW8QMna8G3xt/lM7ibFsK6HGiABf7/LfaXqCpTLcUfhOwqzlVrwxFHhww==
-  dependencies:
-    less "^4.1.1"
-    vue "^3.0.5"
-    vue3-json-view "^1.2.4"
-
 vue@^3.0.5:
   version "3.1.2"
   resolved "https://registry.npmjs.org/vue/-/vue-3.1.2.tgz#647f8e3949a3d600771dca25d50225dc3e594c64"

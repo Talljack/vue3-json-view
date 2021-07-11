@@ -155,7 +155,7 @@
               :line-height="lineHeight"
               :icon-color="iconColors"
               :is-last="index === items.length - 1"
-              :has-siblings="item.hasSiblings"
+              :has-siblings="hasSiblings"
             />
             <p v-else class="json-item">
               <span class="json-key">{{
@@ -370,7 +370,7 @@ export default defineComponent({
 });
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 @import "./style/index";
 @import "./style/on-dark";
 @import "./style/vs-code";

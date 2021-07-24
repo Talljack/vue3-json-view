@@ -5,8 +5,9 @@ Typescript support a vue3-json-view lib which can better show
 ## 🦄 Usage
 
 ```
+It is recommended to use this way
+
 import JsonView from "vue3-json-view"
-import 'vue3-json-view/lib/style.css'
 in vue3
 
 <template>
@@ -30,7 +31,6 @@ or
 
 in main.js
 import { JsonView } from 'vue3-json-view'
-import 'vue3-json-view/lib/style.css'
 app.use(JsonView)
 ```
 
